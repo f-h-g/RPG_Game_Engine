@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="style.css">
+    <title>RPG</title>
+  </head>
+  <body>
+    <canvas id="canvas">Error rendering canvas :/</canvas>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script src='./utilities.js'></script>
+    <script src='./keys.js'></script>
+    <script src='./gameDraw.js'></script>
+    <script src='./items.js'></script>
+    <script src='./world.js'></script>
+    <script src='./dialogue.js'></script>
+    <script src='./magic.js'></script>
+    <script src='animation.js'></script>
+	  <script src='./loader.js'></script>
+  </body>
+</html>
